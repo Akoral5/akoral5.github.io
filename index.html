@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+        body {
+            font-family: "Century Gothic", sans-serif;
+            background-color: rgb(219, 199, 167);
+        }
+            .hero {
+                top: 0px;
+                position: absolute;
+                margin: auto;
+                width: 100%;
+                text-align: center;
+                color: rgb(255, 240, 143);
+                background-color: rgb(130, 0, 0);
+            }
+            #heroimg {
+                width: 100%;
+                margin: 0px;
+            }
+            #navigation {
+                text-align: center;
+            }
+            #navbar {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: rgb(61, 2, 2);
+                color: rgb(255, 240, 143);
+                height: 1.3em;
+                padding: 3px 10px ;
+                width: 100%;
+                margin: 0px;
+            }
+            .navbutton {
+                float: left;
+            }
+            .navbutton a {
+                text-decoration: none;
+                color: rgb(255, 240, 143);
+                margin: 0px 13px 0px 15px;
+            }
+            .navbutton a:hover {
+                text-decoration: underline;
+                color: rgb(255, 240, 143);
+                font-size: 1.2em;
+                background-color: black ;
+            }
+            .hugetext {
+                font-size: 1.6em;
+            }
+            .details h2 {
+                text-align: center;
+            }
+            .backtop {
+                width: 105px;
+                margin: auto;
+            }
+            .backtop a {
+                text-decoration: none;
+                background-color: rgb(235, 219, 195);
+                color: red;
+                border: 1px solid red;
+                border-radius: 10px;
+                padding: 2px;
+            }
+            .backtop a:hover {
+                background-color: rgb(99, 88, 72);
+                color: white;
+                border: 3px solid white;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="hero">
+        <h1>You're invited to: <br> <span class="hugetext">My Birthday Party</span></h1>
+        </div>
+        <div>
+        <img id="heroimg" src="https://www.kasandbox.org/programming-images/seasonal/fireworks-over-harbor.png" width="600px">
+        </div>
+
+        <div id="navigation">
+            <ul id="navbar">
+            <li class="navbutton">Jump to:</li>
+                <li class="navbutton"><a href="#datetime">Date and time</a></li>
+                <li class="navbutton"><a href="#location">Location</a></li>
+                <li class="navbutton"><a href="#activities">Activities</a></li>
+            </ul>
+        </div>
+
+        <div class="details" >
+            <h2>Date and Time</h2>
+            <p id="datetime">The event will start at 12 am on May 5th, 2020. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+        <div class="details" >
+            <h2>Location</h2>
+            <p id="location">The event will take place in a certain location. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+        <div class="details">
+            <h2>Activities</h2>
+            <p  id="activities">Expect a great fun, because some activities will be done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+
+        <div class="backtop"><a href="#navigation">Back to top</a></div>
+
+    </body>
+</html>
